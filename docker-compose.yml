@@ -1,0 +1,14 @@
+version: '3'
+services:
+  # unique service name
+  web-server:
+    # download nginx image tagged 1.17.1
+    image: nginx:1.17.1
+    # maps host port 8080 to web-server container port 8080
+    ports:
+      - "8081:8080"
+
+  app-server:
+    image: tomcat:9.0.12
+    ports:
+      - "8888:8080"
