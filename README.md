@@ -1,2 +1,3 @@
-# Docker-Exercises
-A Docker exercise for EE491F
+# Docker-Exercises for EE491F
+- Run a Nginx container with Docker-Compose and see Nginx's splash page
+- Run a Tomcat container with Docker-Compose and see Tomcat's splash page
